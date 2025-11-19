@@ -41,4 +41,4 @@ Make sure you have **Python 3.13+** installed.
 Clone the project:
 
 ```bash
-git clone https://github.com/yourusername/student-management-cli.git
+git clone https://github.com/W4de27/Student-Management-System
