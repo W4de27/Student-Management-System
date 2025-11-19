@@ -1,32 +1,3 @@
-"""
-Student Management System - Professional CLI (Option A)
-File: student_management_cli.py
-
-Features:
-- Clean, modular code structure
-- Student class with JSON persistence (students.json)
-- Add / View / Update / Delete / Search / Export CSV
-- Friendly CLI with emojis/icons for actions and clear messages
-- Robust input validation and confirmations
-- Small animations without external libs
-- Cross-platform clear screen
-
-Usage:
-$ python student_management_cli.py
-
-Sample improvements compared to original:
-- Fixed selection-index bugs when updating/deleting students
-- Added partial name search and exact selection mapping
-- Added export to CSV
-- Improved error handling when reading/writing files
-- Added helper utilities and consistent UX
-
-Notes:
-- This is a single-file CLI that creates/reads students.json in the same folder.
-- No external dependencies required (works with Python 3.8+).
-
-"""
-
 import os
 import sys
 import json
